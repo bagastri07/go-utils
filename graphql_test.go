@@ -11,7 +11,7 @@ func Test_Int642GraphQLID(t *testing.T) {
 	res := fmt.Sprintf("%d", math.MaxInt64)
 
 	if res != string(g) {
-		t.Error("different value")
+		t.Error("different value bro")
 	}
 }
 
