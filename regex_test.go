@@ -8,7 +8,7 @@ import (
 
 func Test_RegexEmail(t *testing.T) {
 	t.Run("should return true for valid email", func(t *testing.T) {
-		validEmail := "user@domain.com"
+		validEmail := "user1@domain.com"
 		assert.True(t, RegexEmail().MatchString(validEmail))
 	})
 
